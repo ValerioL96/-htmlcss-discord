@@ -111,23 +111,39 @@ header p{
     
 }
 
+main h1{
+    font-size: 3rem;
+    padding: 2rem;;
+}
+
+main p{
+    font-size: 1.2rem;
+ 
+}
+
+main h2{
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-image: url(../img/stars.svg);
+    background-size:cover;
+}
 .dove-trovarsi{
     padding: 5rem;
    
 }
 
-.fandom{
-    
-}
+
 
 .tecnologia{
     flex-direction: column;
-    padding: 2.5rem 10rem;
+    padding: 0rem 5rem;;
     text-align: center;
+
 }
 
+
 footer{
-    background-color: gray;
+    background-color: hsl(205.71deg 9.09% 15.1%);
     padding: 2rem 5rem;
     justify-content: space-around;
 }
