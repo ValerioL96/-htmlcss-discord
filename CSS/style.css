@@ -6,8 +6,9 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
+    font-family:sans-serif;
 }
 
 .flex{
@@ -16,7 +17,7 @@
 
 .flex-centrato{
     display: flex;
-    justify-content: center;
+    justify-content: center;.
     align-items: center;
 }
 
@@ -24,14 +25,24 @@ ul{
     list-style-type: none;
 }
 
+.button{
+    border-radius: 80px;
+    border: solid transparent;
+    
+}
 
 header{
-    background-color: blue;
     color: white;
 }
 
+
+
+
+
+
 .upper{
-    padding: 1.5rem 2rem;
+    background-color: #255ee9;
+    padding: 1.5rem 6rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,10 +51,54 @@ header nav ul li{
     margin: .5rem;
 }
 
-.jumbotron{
-    padding: 5rem 10rem;
-    text-align: center;
+.button-upper{
+    border-color: transparent;
+    background-color: white;
+    padding: .4rem .5rem;
+    font-size: inherit;
 }
+
+.jumbotron{
+    padding: 5rem 16rem;
+    text-align: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+header h1{
+    font-size: 2.5rem;
+    padding-bottom: 2.5rem;
+
+}
+
+header p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.button-jumbotron{
+    border-color: transparent;
+    background-color: white;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+   
+}
+
+.button-jumbotron-1{
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    margin: 1rem;
+   
+}
+
+
+
+
+
 
 .invito{
     padding: 5rem;
