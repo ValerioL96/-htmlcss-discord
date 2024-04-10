@@ -35,6 +35,11 @@ header{
     color: white;
 }
 
+.column{
+    padding: 2.5rem;
+
+}
+
 
 
 
@@ -102,10 +107,17 @@ header p{
 
 .invito{
     padding: 5rem;
+   
+    
 }
 
-.column{
-    padding: 2.5rem
+.dove-trovarsi{
+    padding: 5rem;
+   
+}
+
+.fandom{
+    
 }
 
 .tecnologia{
