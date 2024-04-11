@@ -44,6 +44,11 @@ main{
 
 }
 
+.wave{
+
+}
+
+
 
 
 
@@ -136,8 +141,6 @@ main h2{
    
 }
 
-
-
 .tecnologia{
     flex-direction: column;
     padding: 0rem 5rem;;
@@ -147,20 +150,63 @@ main h2{
 
 .violet-button{
     border-color: transparent;
-    background-color: rgb(114 137 218);;
+    background-color: rgb(114 137 218);
     padding: 1rem 1rem;
     font-size: 1.2rem;
-    margin: 1rem;
-   
+    margin: 1rem;   
 }
+
+
 
 
 footer{
     background-color:rgb(35 39 42);
+    color: white;
     padding: 2rem 5rem;
     justify-content: space-around;
 }
 
+
 .social{
     flex-direction: column;
 }
+
+.social-brand{
+    padding: 1rem;
+}
+footer section.social>h1{
+    font-size: 2rem;
+    padding: .5rem;
+    color: rgb(114 137 218);
+}
+div.ita{
+    flex-direction: row;
+    align-items: stretch;
+   
+}
+
+footer section.social div.ita>img{
+    width: 1rem;
+    vertical-align: middle;
+}
+
+footer section.social>h3{
+    padding: .5rem;
+    color: rgb(114 137 218);
+
+}
+
+footer section.social nav ul >li{
+    padding: .5rem
+}
+
+footer> hr{
+    background-color: #255ee9;
+    background-size: 1rem;
+}
+
+
+footer div.logo-footer{
+    justify-content: space-between;
+}
+
