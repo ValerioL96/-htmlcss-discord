@@ -35,6 +35,10 @@ header{
     color: white;
 }
 
+main{
+    padding: 2rem;
+}
+
 .column{
     padding: 2.5rem;
 
@@ -141,9 +145,18 @@ main h2{
 
 }
 
+.violet-button{
+    border-color: transparent;
+    background-color: rgb(114 137 218);;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+   
+}
+
 
 footer{
-    background-color: hsl(205.71deg 9.09% 15.1%);
+    background-color:rgb(35 39 42);
     padding: 2rem 5rem;
     justify-content: space-around;
 }
