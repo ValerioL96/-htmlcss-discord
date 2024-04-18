@@ -44,15 +44,18 @@ main{
 
 }
 
-.wave{
+.waves{
+    height: 100px;
+   filter: opacity(0.04);
+   background-image: url(../img/wave.svg);
 
 }
 
+.upside-down{
+    transform: rotateX(0.5turn);
+}
 
-
-
-
-
+/*style upper*/
 
 .upper{
     background-color: #255ee9;
@@ -71,6 +74,8 @@ header nav ul li{
     padding: .4rem .5rem;
     font-size: inherit;
 }
+
+/*style jumbotron*/
 
 .jumbotron{
     padding: 5rem 16rem;
@@ -109,15 +114,15 @@ header p{
    
 }
 
+/*COSTUM MAIN*/
 
-
-
+main{
+    padding-bottom: 0rem;
+}
 
 
 .invito{
-    padding: 5rem;
-   
-    
+    padding: 5rem; 
 }
 
 main h1{
@@ -136,15 +141,19 @@ main h2{
     background-image: url(../img/stars.svg);
     background-size:cover;
 }
+
+/*style section main*/
+
 .dove-trovarsi{
-    padding: 5rem;
-   
+    background-color: hsl(0deg 0% 96.47%);
+    padding: 5rem; 
 }
 
 .tecnologia{
     flex-direction: column;
-    padding: 0rem 5rem;;
+    padding: 0rem 5rem;
     text-align: center;
+    background-color: hsl(0deg 0% 96.47%);
 
 }
 
@@ -156,14 +165,18 @@ main h2{
     margin: 1rem;   
 }
 
-
-
+/*COSTUM FOOTER*/
 
 footer{
+    flex-direction: column;
     background-color:rgb(35 39 42);
     color: white;
     padding: 2rem 5rem;
-    justify-content: space-around;
+}
+
+div.footer-social{
+    justify-content: space-between;
+    padding-bottom: 2rem;
 }
 
 
@@ -181,8 +194,7 @@ footer section.social>h1{
 }
 div.ita{
     flex-direction: row;
-    align-items: stretch;
-   
+    align-items: stretch;  
 }
 
 footer section.social div.ita>img{
@@ -193,20 +205,22 @@ footer section.social div.ita>img{
 footer section.social>h3{
     padding: .5rem;
     color: rgb(114 137 218);
-
 }
 
 footer section.social nav ul >li{
     padding: .5rem
 }
 
-footer> hr{
-    background-color: #255ee9;
-    background-size: 1rem;
+footer div.logo-footer{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-top: solid  rgb(114 137 218);
 }
 
-
-footer div.logo-footer{
-    justify-content: space-between;
+footer div.logo-footer>input{
+    background-color: rgb(114 137 218);
+    color: white;
+    padding: 1rem;
 }
 
